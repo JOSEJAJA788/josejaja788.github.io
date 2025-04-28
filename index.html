@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matemáticas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Ejercicios de Operaciones Matemáticas</h2>
+        <section class="container-operadores">
+            <button id="suma" onclick="btnSumar()">Suma</button>
+            <button id="resta" onclick="btnResta()">Resta</button>
+            <button id="producto" onclick="btnProducto()">Producto</button>
+            <button id="division" onclick="btnDivision()">División</button>
+        </section>
+
+        <section class="container-operacion">
+            <span id="num1">5</span>
+            <span id="Operaciones">+</span>
+            <span id="num2">6</span>
+            <span> = </span>
+            <input type="text" id="respuesta_usuario">
+            <button id="corregir" onclick="corregir()">Corregir</button>
+        </section>
+
+        <section id="msj_corecion"></section> <!-- Mensaje de corrección -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
